@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle, #111, #000);
+  font-family: Arial;
+}
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #111;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px gold;
+  text-align: center;
+  width: 300px;
+}
+
+.card h2 {
+  color: gold;
+}
+
+.card input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  background: gold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
